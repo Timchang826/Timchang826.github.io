@@ -1,0 +1,16 @@
+div.logo {
+  display: flex;
+  flex: 4 1 400px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+div.logo h1 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+header {
+  background-color: rgb(124, 222, 246);
+  top: 0;
+  z-index: 1;
+  box-shadow: 3px 3px 5px 1px rgb(3, 3, 3);
+}
