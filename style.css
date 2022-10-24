@@ -14,3 +14,61 @@ header {
   z-index: 1;
   box-shadow: 3px 3px 5px 1px rgb(3, 3, 3);
 }
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+header nav ul li {
+  font-size: 1.75rem;
+  padding: 0rem 1.25rem;
+}
+
+nav {
+  display: flex;
+  flex: 1 1 400px;
+}
+
+.dropbtn {
+  background-color: rgb(252, 216, 172);
+  color: rgb(6, 6, 6);
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.phoneli01 {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  list-style-type: none;
+  background-color: rgb(68, 212, 97);
+  color: black;
+}
+
+#nav {
+  float: right;
+}
+
+.one {
+  color: black;
+  text-decoration: none;
+}
+
